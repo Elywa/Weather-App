@@ -12,7 +12,7 @@ class WheatherWidget extends StatelessWidget {
           const Text(
             'Alexandria',
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
               fontSize: 30,
             ),
           ),
@@ -22,8 +22,8 @@ class WheatherWidget extends StatelessWidget {
           const Text(
             'Updated at 23:46',
             style: TextStyle(
-              color: Colors.white,
-              fontSize: 25,
+              color: Colors.black,
+              fontSize: 20,
             ),
           ),
           const SizedBox(
@@ -36,7 +36,7 @@ class WheatherWidget extends StatelessWidget {
               const Text(
                 '17',
                 style: TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 50,
                     fontWeight: FontWeight.bold),
               ),
@@ -45,14 +45,14 @@ class WheatherWidget extends StatelessWidget {
                   Text(
                     ' Max Temp : 24',
                     style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 20,
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
                     ' Min Temp : 14',
                     style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: 20,
                         fontWeight: FontWeight.bold),
                   ),
@@ -66,7 +66,7 @@ class WheatherWidget extends StatelessWidget {
           const Text(
             ' Light Rain',
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
               fontSize: 30,
               fontWeight: FontWeight.bold,
             ),
