@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wheather_app/components/no_wheather_widget.dart';
 
 import 'package:wheather_app/components/wheather_widget.dart';
 import 'package:wheather_app/views/search_view.dart';
@@ -41,7 +42,9 @@ class HomeView extends StatelessWidget {
           ),
         ),
       ),
-      body: const WheatherWidget(),
+      body: weatherModel == null
+          ? const NoWheatherWidget()
+          : const WheatherWidget(),
     );
   }
 }

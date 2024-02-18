@@ -15,7 +15,7 @@ class NoWheatherWidget extends StatelessWidget {
             child: Text(
               'Would you like to Know Wheather ? 😄',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 20,
                 fontFamily: 'Kalam',
                 fontWeight: FontWeight.bold,
@@ -26,7 +26,7 @@ class NoWheatherWidget extends StatelessWidget {
             child: Text(
               'search now 🔎☝🏻',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 20,
                 fontFamily: 'Kalam',
                 fontWeight: FontWeight.bold,
