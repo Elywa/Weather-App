@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:wheather_app/cubits/get%20current%20weather%20cubit/get_weather_cubit.dart';
 import 'package:wheather_app/views/home_view.dart';
 
 void main() {
@@ -10,9 +12,12 @@ class Base extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeView(),
+    return  BlocProvider(
+      create: (context) => GetWeatherCubit(),
+      child: const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: HomeView(),
+      ),
     );
   }
 }
