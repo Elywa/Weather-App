@@ -1,11 +1,8 @@
-import 'dart:developer';
-
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:wheather_app/cubits/get%20current%20weather%20cubit/get_weather_cubit.dart';
+import 'package:wheather_app/main.dart';
 import 'package:wheather_app/models/weather_model.dart';
-import 'package:wheather_app/services/weather_service.dart';
 
 class SearchView extends StatelessWidget {
   const SearchView({super.key});
@@ -14,11 +11,10 @@ class SearchView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue,
         title: const Text(
           'Search',
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.black,
             fontSize: 25,
             fontFamily: "Kalam",
             fontWeight: FontWeight.bold,
